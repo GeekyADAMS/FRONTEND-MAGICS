@@ -1,0 +1,13 @@
+###The following items are worth taking note of to successfully use this code as a vue component in your work.
+
+1. Some of the classes are incomplete in the CSS: I used classes from my custom css library which i dont want to upload here,
+Some of the missing classes include the text font class (POPPINS), flex-box classes used (flex-row = display: flex; flex-direction: row, 
+'a-c' = align-item: center;, space-btw =  justify-content: space-between;, w(N)p = width: N%; e.t.c
+
+2. Put payment.vue in your components folder
+
+3. put 'card-bg' folder in your src/assets folder
+
+4. place 'card-assets' folder in your public folder
+
+5. Some adjustment might be needed to make it mobile responsive. Mostly adjustments to width
