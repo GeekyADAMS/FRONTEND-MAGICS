@@ -1,0 +1,54 @@
+.h100v{
+    height: 100vh;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.align-center{
+    justify-content: center;
+    align-items: center;
+}
+.art-board{
+    height: 80vh;
+    width: 300px;
+    background: #c4c4c4;
+    border-radius: 32px;
+}
+.inner-div{
+    width: 85%;
+    height: 85%;
+}
+.big-screen{
+    width: 100%;
+    height: 50%;
+}
+.rectangle-bar{
+    width: 100%;
+    height: 15%;
+}
+.buttons-div{
+    width: 100%;
+}
+button{
+    height: 60px;
+    width: 60px;
+}
+.rad-16{
+    border-radius: 16px;
+}
+.round{
+    border-radius: 100%;
+}
+.skeuomorphosize{
+    background: linear-gradient(to bottom right, rgba(0,0,0,.15), rgba(255,255,255,.05));
+    border: 2px solid rgba(255,255,255,.1);
+    box-shadow: 6px 6px 8px rgba(0,0,0,.12), -6px -6px 6px rgba(255,255,255,.2);
+}
